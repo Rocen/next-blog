@@ -1,6 +1,6 @@
 import React from 'react';
 import matter from "gray-matter";
-import Markdown from "@/components/markdown";
+import Markdown from "@/components/Markdown";
 import { getPostSlugs, getPostString } from "@/lib/api";
 
 const Article = ({article}) => {

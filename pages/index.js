@@ -1,5 +1,5 @@
 import matter from "gray-matter";
-import Card from "@/components/card";
+import Card from "@/components/Card";
 import { getPostSlugs, getPostString } from "@/lib/api";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, Scrollbar, A11y, Mousewheel } from "swiper";
