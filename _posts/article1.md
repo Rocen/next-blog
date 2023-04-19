@@ -29,9 +29,11 @@ categories: Next
 
 也就是说目前`React`官方已经明确的将`Next.js`作为`React`项目开发的首位选择。
 
-而且，最近`Next.js`在最近达到了**10wstar**成就，成为*Github*中*star*排名第**14**的仓库，说明流行程度之高。
+而且，最近`Next.js`在最近达到了**10wstar**成就，成为*Github*中*star*排名第**14**的仓库，可见流行程度之高。
 
-场外：在[Meet the Team](https://react.dev/community/team)的介绍中也可以看到目前`React`的团队中有多位`Vercel`工程师加入（其中也包括原来React团队的成员加入到Vercel），可以说明这两个团队之间已经进行深入的合作，所以`React`未来一定会向`Next.js`倾斜更多的资源。
+场外信息：在[Meet the Team](https://react.dev/community/team)的介绍中也可以看到目前`React`的团队中有多位`Vercel`工程师加入（其中也包括原来`React`团队的成员加入到`Vercel`），可以说明两个团队之间已经进行深入的合作，所以`React`未来一定会向`Next.js`倾斜更多的资源。
+
+综上所述，未来`Next.js`很可能会是最契合`React`的`React`框架。
 
 ## Next.js的优势
 `Next.js`是一个`React web`应用的**全栈**框架，也是基于`React`的上层框架。
@@ -106,16 +108,16 @@ categories: Next
 
 ## 其他功能或者扩展
 `Next.js`包含的其他功能：
-+ `API Routes`：`Next.js`支持在`pages/api`目录下编写接口，在前端页面中发起的`Ajax`请求默认都会走到`api`目录下对应的**api路由**进行处理，如果没找到对应的**api路由**，则请求会报*404*
++ `API Routes`：`Next.js`支持在`pages/api`目录下编写接口
 + `@next/mdx`: `next.js`支持使用`mdx`编写页面（主要是`mdxjs`这个库对`markdown`进行了扩展，可以让开发者在`markdown`中插**入JSX代码**和**导入组件**，然后`Next.js`对`mdx`进行了支持）
-+ `neext/amp`: 移动端页面相关
++ `neext/amp`: 加速移动页面（`amp`是一个开源框架，它提供了一种直接的方式来创建轻量级的网页，以便用户即时使用，获得了极大改善的体验，详细信息可以阅读[官网](https://amp.dev/)）
 
 ## 对比React单页应用
 过去`React`官方提供了`create-react-app`脚手架（简称`CRA`，由`React`官方进行维护），主要用于创建一个新的`react`项目，这种项目一般被称为*单页应用*（简称`SPA`）。  
 
 但是`CRA`对于开发者并不好用，使用时需要到社区额外的找一些完整的模版，或者初始化各种配置和规范（包括但不限于`react-router-dom`、`webpack`、`babel`、预处理`css`等）。
 
-简单来说，就是需要开发者配置的基础内容太多，并不能做到**开箱即用**，这也是过去`CRA`诟病已久的主要问题。
+简单来说，就是需要开发者配置的基础内容太多，并不能做到**开箱即用**，这也是过去`CRA`被诟病的主要问题。
 
 再加上`React18`中新增的`Server Component`和**并发特性**等新功能，`CRA`都无法完全发挥出`React`的能力，所以`CRA`已经逐渐被`Next.js`或者`Gatsby.js`这种上层框架所取代（从`React`新官网文档得出的结论，在文档中几乎没有提及`CRA`）。
 
@@ -131,5 +133,5 @@ categories: Next
 
 上述的这些优点只是从初学者接触`Next.js`比较直观的感受，难免会片面一点。
 
-如果有需要可以异步到[Next.js官方文档](https://nextjs.org/docs/getting-started)学习更全面和详细的知识。
+如果有需要可以移步到[Next.js官方文档](https://nextjs.org/docs/getting-started)学习更全面和详细的知识。
 
